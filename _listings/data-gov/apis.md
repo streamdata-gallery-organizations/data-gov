@@ -10,10 +10,10 @@ description: data.gov is a U.S. government website launched in late May 2009 by 
   for national security reasons.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Data.Gov
-created: "2018-05-25"
-modified: "2018-05-25"
+created: "2018-06-19"
+modified: "2018-06-19"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/apis.md
 specificationVersion: "0.14"
 apis:
