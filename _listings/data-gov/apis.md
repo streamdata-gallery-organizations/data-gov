@@ -12,1760 +12,1904 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Data.Gov
-created: "2018-06-26"
-modified: "2018-06-26"
+created: "2018-08-29"
+modified: "2018-08-29"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Data.gov API Get Activity
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Activity
+  x-api-slug: activity-get
   description: Fetch site activity, optionally filterd by user of org
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///activity
-  tags: Activity
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/activity-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/activity-get-openapi.md
-- name: Data.gov API Get Datasets
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Datasets
+  x-api-slug: datasets-get
   description: List or search all datasets
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/
-  tags: Datasets
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasets-get-openapi.md
-- name: Data.gov API Add Datasets
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Datasets
+  x-api-slug: datasets-post
   description: Create a new dataset
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/
-  tags: Datasets
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasets-post-openapi.md
-- name: Data.gov API Get Datasets Badges
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Datasets Badges
+  x-api-slug: datasetsbadges-get
   description: List all available dataset badges and their labels
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/badges/
-  tags: Datasets, Badges
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsbadges-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsbadges-get-openapi.md
-- name: Data.gov API Get Datasets Checkurl
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Datasets Checkurl
+  x-api-slug: datasetscheckurl-get
   description: Checks that a URL exists and returns metadata
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/checkurl/
-  tags: Datasets, Checkurl
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetscheckurl-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetscheckurl-get-openapi.md
-- name: Data.gov API Get Datasets Community Resources
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Datasets Community Resources
+  x-api-slug: datasetscommunity-resources-get
   description: List all community resources
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/community_resources/
-  tags: Datasets, Community, Resources
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetscommunity-resources-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetscommunity-resources-get-openapi.md
-- name: Data.gov API Add Datasets Community Resources
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Datasets Community Resources
+  x-api-slug: datasetscommunity-resources-post
   description: Create a new community resource
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/community_resources/
-  tags: Datasets, Community, Resources
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetscommunity-resources-post-openapi.md
-- name: Data.gov API Delete Datasets Community Resources Community
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Datasets Community Resources Community
+  x-api-slug: datasetscommunity-resourcescommunity-delete
   description: Delete a given community resource
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/community_resources/{community}/
-  tags: Datasets, Community, Resources, Community
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetscommunity-resourcescommunity-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetscommunity-resourcescommunity-delete-openapi.md
-- name: Data.gov API Get Datasets Community Resources Community
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Datasets Community Resources Community
+  x-api-slug: datasetscommunity-resourcescommunity-get
   description: Retrieve a community resource given its identifier
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/community_resources/{community}/
-  tags: Datasets, Community, Resources, Community
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetscommunity-resourcescommunity-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetscommunity-resourcescommunity-get-openapi.md
-- name: Data.gov API Put Datasets Community Resources Community
-  x-api-slug: data-gov-api
+- name: Data.gov API - Put Datasets Community Resources Community
+  x-api-slug: datasetscommunity-resourcescommunity-put
   description: Update a given community resource
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/community_resources/{community}/
-  tags: Datasets, Community, Resources, Community
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetscommunity-resourcescommunity-put-openapi.md
-- name: Data.gov API Add Datasets Community Resources Community Upload
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Datasets Community Resources Community Upload
+  x-api-slug: datasetscommunity-resourcescommunityupload-post
   description: Update the file related to a given community resource
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/community_resources/{community}/upload/
-  tags: Datasets, Community, Resources, Community, Upload
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetscommunity-resourcescommunityupload-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetscommunity-resourcescommunityupload-post-openapi.md
-- name: Data.gov API Get Datasets Frequencies
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Datasets Frequencies
+  x-api-slug: datasetsfrequencies-get
   description: List all available frequencies
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/frequencies/
-  tags: Datasets, Frequencies
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsfrequencies-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsfrequencies-get-openapi.md
-- name: Data.gov API Get Datasets Full
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Datasets Full
+  x-api-slug: datasetsfull-get
   description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/full/
-  tags: Datasets, Full
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsfull-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsfull-get-openapi.md
-- name: Data.gov API Get Datasets Licenses
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Datasets Licenses
+  x-api-slug: datasetslicenses-get
   description: List all available licenses
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/licenses/
-  tags: Datasets, Licenses
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetslicenses-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetslicenses-get-openapi.md
-- name: Data.gov API Get Datasets Suggest
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Datasets Suggest
+  x-api-slug: datasetssuggest-get
   description: Suggest datasets
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/suggest/
-  tags: Datasets, Suggest
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetssuggest-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetssuggest-get-openapi.md
-- name: Data.gov API Get Datasets Suggest Formats
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Datasets Suggest Formats
+  x-api-slug: datasetssuggestformats-get
   description: Suggest file formats
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/suggest/formats/
-  tags: Datasets, Suggest, Formats
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetssuggestformats-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetssuggestformats-get-openapi.md
-- name: Data.gov API Delete Datasets Dataset
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Datasets Dataset
+  x-api-slug: datasetsdataset-delete
   description: Delete a dataset given its identifier
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/{dataset}/
-  tags: Datasets, Dataset
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdataset-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdataset-delete-openapi.md
-- name: Data.gov API Get Datasets Dataset
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Datasets Dataset
+  x-api-slug: datasetsdataset-get
   description: Get a dataset given its identifier
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/{dataset}/
-  tags: Datasets, Dataset
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdataset-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdataset-get-openapi.md
-- name: Data.gov API Put Datasets Dataset
-  x-api-slug: data-gov-api
+- name: Data.gov API - Put Datasets Dataset
+  x-api-slug: datasetsdataset-put
   description: Update a dataset given its identifier
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/{dataset}/
-  tags: Datasets, Dataset
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdataset-put-openapi.md
-- name: Data.gov API Add Datasets Dataset Badges
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Datasets Dataset Badges
+  x-api-slug: datasetsdatasetbadges-post
   description: Create a new badge for a given dataset
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/{dataset}/badges/
-  tags: Datasets, Dataset, Badges
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetbadges-post-openapi.md
-- name: Data.gov API Delete Datasets Dataset Badges Badge Kind
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Datasets Dataset Badges Badge Kind
+  x-api-slug: datasetsdatasetbadgesbadge-kind-delete
   description: Delete a badge for a given dataset
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/{dataset}/badges/{badge_kind}/
-  tags: Datasets, Dataset, Badges, Badge, Kind
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetbadgesbadge-kind-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetbadgesbadge-kind-delete-openapi.md
-- name: Data.gov API Delete Datasets Dataset Featured
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Datasets Dataset Featured
+  x-api-slug: datasetsdatasetfeatured-delete
   description: Unmark the dataset as featured
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/{dataset}/featured/
-  tags: Datasets, Dataset, Featured
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetfeatured-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetfeatured-delete-openapi.md
-- name: Data.gov API Add Datasets Dataset Featured
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Datasets Dataset Featured
+  x-api-slug: datasetsdatasetfeatured-post
   description: Mark the dataset as featured
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/{dataset}/featured/
-  tags: Datasets, Dataset, Featured
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetfeatured-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetfeatured-post-openapi.md
-- name: Data.gov API Get Datasets Dataset Full
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Datasets Dataset Full
+  x-api-slug: datasetsdatasetfull-get
   description: Get a dataset given its identifier
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/{dataset}/full/
-  tags: Datasets, Dataset, Full
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetfull-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetfull-get-openapi.md
-- name: Data.gov API Add Datasets Dataset Resources
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Datasets Dataset Resources
+  x-api-slug: datasetsdatasetresources-post
   description: Create a new resource for a given dataset
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/{dataset}/resources/
-  tags: Datasets, Dataset, Resources
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetresources-post-openapi.md
-- name: Data.gov API Put Datasets Dataset Resources
-  x-api-slug: data-gov-api
+- name: Data.gov API - Put Datasets Dataset Resources
+  x-api-slug: datasetsdatasetresources-put
   description: Reorder resources
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/{dataset}/resources/
-  tags: Datasets, Dataset, Resources
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetresources-put-openapi.md
-- name: Data.gov API Delete Datasets Dataset Resources R
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Datasets Dataset Resources R
+  x-api-slug: datasetsdatasetresourcesrid-delete
   description: Delete a given resource on a given dataset
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/{dataset}/resources/{rid}/
-  tags: Datasets, Dataset, Resources, R
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetresourcesrid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetresourcesrid-delete-openapi.md
-- name: Data.gov API Put Datasets Dataset Resources R
-  x-api-slug: data-gov-api
+- name: Data.gov API - Put Datasets Dataset Resources R
+  x-api-slug: datasetsdatasetresourcesrid-put
   description: Update a given resource on a given dataset
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/{dataset}/resources/{rid}/
-  tags: Datasets, Dataset, Resources, R
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetresourcesrid-put-openapi.md
-- name: Data.gov API Add Datasets Dataset Resources R Upload
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Datasets Dataset Resources R Upload
+  x-api-slug: datasetsdatasetresourcesridupload-post
   description: Upload a file related to a given resource on a given dataset
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/{dataset}/resources/{rid}/upload/
-  tags: Datasets, Dataset, Resources, R, Upload
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetresourcesridupload-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetresourcesridupload-post-openapi.md
-- name: Data.gov API Add Datasets Dataset Upload
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Datasets Dataset Upload
+  x-api-slug: datasetsdatasetupload-post
   description: Upload a new dataset resource
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/{dataset}/upload/
-  tags: Datasets, Dataset, Upload
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetupload-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetupload-post-openapi.md
-- name: Data.gov API Add Datasets Dataset Upload Community
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Datasets Dataset Upload Community
+  x-api-slug: datasetsdatasetuploadcommunity-post
   description: Upload a new community resource
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/{dataset}/upload/community/
-  tags: Datasets, Dataset, Upload, Community
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetuploadcommunity-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsdatasetuploadcommunity-post-openapi.md
-- name: Data.gov API Delete Datasets  Followers
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Datasets  Followers
+  x-api-slug: datasetsidfollowers-delete
   description: Unfollow an object given its ID
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/{id}/followers/
-  tags: Datasets, , Followers
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsidfollowers-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsidfollowers-delete-openapi.md
-- name: Data.gov API Get Datasets  Followers
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Datasets  Followers
+  x-api-slug: datasetsidfollowers-get
   description: List all followers for a given object
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/{id}/followers/
-  tags: Datasets, , Followers
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsidfollowers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsidfollowers-get-openapi.md
-- name: Data.gov API Add Datasets  Followers
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Datasets  Followers
+  x-api-slug: datasetsidfollowers-post
   description: Follow an object given its ID
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///datasets/{id}/followers/
-  tags: Datasets, , Followers
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsidfollowers-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/datasetsidfollowers-post-openapi.md
-- name: Data.gov API Get Discussions
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Discussions
+  x-api-slug: discussions-get
   description: List all Discussions
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///discussions/
-  tags: Discussions
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/discussions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/discussions-get-openapi.md
-- name: Data.gov API Add Discussions
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Discussions
+  x-api-slug: discussions-post
   description: Create a new Discussion
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///discussions/
-  tags: Discussions
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/discussions-post-openapi.md
-- name: Data.gov API Delete Discussions
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Discussions
+  x-api-slug: discussionsid-delete
   description: Delete a discussion given its ID
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///discussions/{id}/
-  tags: Discussions
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/discussionsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/discussionsid-delete-openapi.md
-- name: Data.gov API Get Discussions
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Discussions
+  x-api-slug: discussionsid-get
   description: Get a discussion given its ID
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///discussions/{id}/
-  tags: Discussions
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/discussionsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/discussionsid-get-openapi.md
-- name: Data.gov API Add Discussions
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Discussions
+  x-api-slug: discussionsid-post
   description: Add comment and optionnaly close a discussion given its ID
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///discussions/{id}/
-  tags: Discussions
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/discussionsid-post-openapi.md
-- name: Data.gov API Get Harvest Backends
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Harvest Backends
+  x-api-slug: harvestbackends-get
   description: List all available harvest backends
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///harvest/backends
-  tags: Harvest, Backends
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/harvestbackends-get-openapi.md
-- name: Data.gov API Get Harvest Job
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Harvest Job
+  x-api-slug: harvestjobident-get
   description: List all jobs for a given source
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///harvest/job/{ident}/
-  tags: Harvest, Job, Ent
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/harvestjobident-get-openapi.md
-- name: Data.gov API Get Harvest Job Status
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Harvest Job Status
+  x-api-slug: harvestjob-status-get
   description: List all available harvesters
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///harvest/job_status
-  tags: Harvest, Job, Status
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/harvestjob-status-get-openapi.md
-- name: Data.gov API Delete Harvest Source Ent
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Harvest Source Ent
+  x-api-slug: harvestsourceident-delete
   description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///harvest/source/{ident}
-  tags: Harvest, Source, Ent
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/harvestsourceident-delete-openapi.md
-- name: Data.gov API Get Harvest Source Ent
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Harvest Source Ent
+  x-api-slug: harvestsourceident-get
   description: Get a single source given an ID or a slug
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///harvest/source/{ident}
-  tags: Harvest, Source, Ent
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/harvestsourceident-get-openapi.md
-- name: Data.gov API Get Harvest Source Ent Jobs
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Harvest Source Ent Jobs
+  x-api-slug: harvestsourceidentjobs-get
   description: List all jobs for a given source
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///harvest/source/{ident}/jobs/
-  tags: Harvest, Source, Ent, Jobs
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/harvestsourceidentjobs-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/harvestsourceidentjobs-get-openapi.md
-- name: Data.gov API Get Harvest Source Ent Preview
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Harvest Source Ent Preview
+  x-api-slug: harvestsourceidentpreview-get
   description: Preview a single harvest source given an ID or a slug
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///harvest/source/{ident}/preview
-  tags: Harvest, Source, Ent, Preview
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/harvestsourceidentpreview-get-openapi.md
-- name: Data.gov API Add Harvest Source Ent Valate
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Harvest Source Ent Valate
+  x-api-slug: harvestsourceidentvalidate-post
   description: Validate or reject an harvest source
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///harvest/source/{ident}/validate
-  tags: Harvest, Source, Ent, Valate
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/harvestsourceidentvalidate-post-openapi.md
-- name: Data.gov API Get Harvest Sources
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Harvest Sources
+  x-api-slug: harvestsources-get
   description: List all harvest sources
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///harvest/sources/
-  tags: Harvest, Sources
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/harvestsources-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/harvestsources-get-openapi.md
-- name: Data.gov API Add Harvest Sources
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Harvest Sources
+  x-api-slug: harvestsources-post
   description: Create a new harvests source
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///harvest/sources/
-  tags: Harvest, Sources
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/harvestsources-post-openapi.md
-- name: Data.gov API Get Issues
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Issues
+  x-api-slug: issues-get
   description: List all Issues
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///issues/
-  tags: Issues
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/issues-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/issues-get-openapi.md
-- name: Data.gov API Add Issues
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Issues
+  x-api-slug: issues-post
   description: Create a new Issue
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///issues/
-  tags: Issues
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/issues-post-openapi.md
-- name: Data.gov API Get Issues
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Issues
+  x-api-slug: issuesid-get
   description: Get an issue given its ID
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///issues/{id}/
-  tags: Issues
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/issuesid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/issuesid-get-openapi.md
-- name: Data.gov API Add Issues
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Issues
+  x-api-slug: issuesid-post
   description: Add comment and optionnaly close an issue given its ID
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///issues/{id}/
-  tags: Issues
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/issuesid-post-openapi.md
-- name: Data.gov API Get Me
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Me
+  x-api-slug: me-get
   description: Fetch the current user (me) identity
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///me/
-  tags: Me
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/me-get-openapi.md
-- name: Data.gov API Put Me
-  x-api-slug: data-gov-api
+- name: Data.gov API - Put Me
+  x-api-slug: me-put
   description: Update my profile
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///me/
-  tags: Me
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/me-put-openapi.md
-- name: Data.gov API Delete Me Apikey
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Me Apikey
+  x-api-slug: meapikey-delete
   description: Clear/destroy an apikey
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///me/apikey
-  tags: Me, Apikey
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/meapikey-delete-openapi.md
-- name: Data.gov API Add Me Apikey
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Me Apikey
+  x-api-slug: meapikey-post
   description: (Re)Generate my API Key
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///me/apikey
-  tags: Me, Apikey
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/meapikey-post-openapi.md
-- name: Data.gov API Add Me Avatar
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Me Avatar
+  x-api-slug: meavatar-post
   description: Upload a new avatar
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///me/avatar
-  tags: Me, Avatar
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/meavatar-post-openapi.md
-- name: Data.gov API Get Me Datasets
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Me Datasets
+  x-api-slug: medatasets-get
   description: List all my datasets (including private ones)
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///me/datasets/
-  tags: Me, Datasets
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/medatasets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/medatasets-get-openapi.md
-- name: Data.gov API Get Me Metrics
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Me Metrics
+  x-api-slug: memetrics-get
   description: Fetch the current user (me) metrics
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///me/metrics/
-  tags: Me, Metrics
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/memetrics-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/memetrics-get-openapi.md
-- name: Data.gov API Get Me Org Community Resources
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Me Org Community Resources
+  x-api-slug: meorg-community-resources-get
   description: List all community resources related to me and my organizations
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///me/org_community_resources/
-  tags: Me, Org, Community, Resources
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/meorg-community-resources-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/meorg-community-resources-get-openapi.md
-- name: Data.gov API Get Me Org Datasets
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Me Org Datasets
+  x-api-slug: meorg-datasets-get
   description: List all datasets related to me and my organizations
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///me/org_datasets/
-  tags: Me, Org, Datasets
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/meorg-datasets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/meorg-datasets-get-openapi.md
-- name: Data.gov API Get Me Org Discussions
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Me Org Discussions
+  x-api-slug: meorg-discussions-get
   description: List all discussions related to my organizations
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///me/org_discussions/
-  tags: Me, Org, Discussions
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/meorg-discussions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/meorg-discussions-get-openapi.md
-- name: Data.gov API Get Me Org Issues
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Me Org Issues
+  x-api-slug: meorg-issues-get
   description: List all issues related to my organizations
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///me/org_issues/
-  tags: Me, Org, Issues
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/meorg-issues-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/meorg-issues-get-openapi.md
-- name: Data.gov API Get Me Org Reuses
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Me Org Reuses
+  x-api-slug: meorg-reuses-get
   description: List all reuses related to me and my organizations
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///me/org_reuses/
-  tags: Me, Org, Reuses
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/meorg-reuses-get-openapi.md
-- name: Data.gov API Get Me Reuses
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Me Reuses
+  x-api-slug: mereuses-get
   description: List all my reuses (including private ones)
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///me/reuses/
-  tags: Me, Reuses
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/mereuses-get-openapi.md
-- name: Data.gov API Get Metrics
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Metrics
+  x-api-slug: metricsid-get
   description: Fetch metrics for an object given its ID
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///metrics/{id}
-  tags: Metrics
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/metricsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/metricsid-get-openapi.md
-- name: Data.gov API Get Notifications
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Notifications
+  x-api-slug: notifications-get
   description: List all current user pending notifications
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///notifications/
-  tags: Notifications
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/notifications-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/notifications-get-openapi.md
-- name: Data.gov API Get Oembeds
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Oembeds
+  x-api-slug: oembeds-get
   description: The returned payload is a list of OEmbed formatted responses
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///oembeds/
-  tags: Oembeds
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/oembeds-get-openapi.md
-- name: Data.gov API Get Organizations
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Organizations
+  x-api-slug: organizations-get
   description: List or search all organizations
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/
-  tags: Organizations
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizations-get-openapi.md
-- name: Data.gov API Add Organizations
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Organizations
+  x-api-slug: organizations-post
   description: Create a new organization
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/
-  tags: Organizations
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizations-post-openapi.md
-- name: Data.gov API Get Organizations Badges
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Organizations Badges
+  x-api-slug: organizationsbadges-get
   description: List all available organization badges and their labels
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/badges/
-  tags: Organizations, Badges
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsbadges-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsbadges-get-openapi.md
-- name: Data.gov API Get Organizations Suggest
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Organizations Suggest
+  x-api-slug: organizationssuggest-get
   description: Suggest organizations
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/suggest/
-  tags: Organizations, Suggest
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationssuggest-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationssuggest-get-openapi.md
-- name: Data.gov API Delete Organizations  Followers
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Organizations  Followers
+  x-api-slug: organizationsidfollowers-delete
   description: Unfollow an object given its ID
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{id}/followers/
-  tags: Organizations, , Followers
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsidfollowers-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsidfollowers-delete-openapi.md
-- name: Data.gov API Get Organizations  Followers
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Organizations  Followers
+  x-api-slug: organizationsidfollowers-get
   description: List all followers for a given object
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{id}/followers/
-  tags: Organizations, , Followers
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsidfollowers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsidfollowers-get-openapi.md
-- name: Data.gov API Add Organizations  Followers
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Organizations  Followers
+  x-api-slug: organizationsidfollowers-post
   description: Follow an object given its ID
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{id}/followers/
-  tags: Organizations, , Followers
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsidfollowers-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsidfollowers-post-openapi.md
-- name: Data.gov API Delete Organizations Org
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Organizations Org
+  x-api-slug: organizationsorg-delete
   description: Delete a organization given its identifier
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{org}/
-  tags: Organizations, Org
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorg-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorg-delete-openapi.md
-- name: Data.gov API Get Organizations Org
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Organizations Org
+  x-api-slug: organizationsorg-get
   description: Get a organization given its identifier
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{org}/
-  tags: Organizations, Org
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorg-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorg-get-openapi.md
-- name: Data.gov API Put Organizations Org
-  x-api-slug: data-gov-api
+- name: Data.gov API - Put Organizations Org
+  x-api-slug: organizationsorg-put
   description: Update a organization given its identifier
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{org}/
-  tags: Organizations, Org
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorg-put-openapi.md
-- name: Data.gov API Add Organizations Org Badges
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Organizations Org Badges
+  x-api-slug: organizationsorgbadges-post
   description: Create a new badge for a given organization
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{org}/badges/
-  tags: Organizations, Org, Badges
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgbadges-post-openapi.md
-- name: Data.gov API Delete Organizations Org Badges Badge Kind
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Organizations Org Badges Badge Kind
+  x-api-slug: organizationsorgbadgesbadge-kind-delete
   description: Delete a badge for a given organization
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{org}/badges/{badge_kind}/
-  tags: Organizations, Org, Badges, Badge, Kind
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgbadgesbadge-kind-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgbadgesbadge-kind-delete-openapi.md
-- name: Data.gov API Get Organizations Org Datasets
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Organizations Org Datasets
+  x-api-slug: organizationsorgdatasets-get
   description: List organization datasets (including private ones when member)
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{org}/datasets/
-  tags: Organizations, Org, Datasets
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgdatasets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgdatasets-get-openapi.md
-- name: Data.gov API Get Organizations Org Discussions
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Organizations Org Discussions
+  x-api-slug: organizationsorgdiscussions-get
   description: List organization discussions
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{org}/discussions/
-  tags: Organizations, Org, Discussions
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgdiscussions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgdiscussions-get-openapi.md
-- name: Data.gov API Get Organizations Org Issues
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Organizations Org Issues
+  x-api-slug: organizationsorgissues-get
   description: List organization issues
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{org}/issues/
-  tags: Organizations, Org, Issues
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgissues-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgissues-get-openapi.md
-- name: Data.gov API Add Organizations Org Logo
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Organizations Org Logo
+  x-api-slug: organizationsorglogo-post
   description: Upload a new logo
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{org}/logo
-  tags: Organizations, Org, Logo
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorglogo-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorglogo-post-openapi.md
-- name: Data.gov API Put Organizations Org Logo
-  x-api-slug: data-gov-api
+- name: Data.gov API - Put Organizations Org Logo
+  x-api-slug: organizationsorglogo-put
   description: Set the logo BBox
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{org}/logo
-  tags: Organizations, Org, Logo
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorglogo-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorglogo-put-openapi.md
-- name: Data.gov API Delete Organizations Org Member User
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Organizations Org Member User
+  x-api-slug: organizationsorgmemberuser-delete
   description: Delete member from an organization
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{org}/member/{user}
-  tags: Organizations, Org, Member, User
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgmemberuser-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgmemberuser-delete-openapi.md
-- name: Data.gov API Add Organizations Org Member User
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Organizations Org Member User
+  x-api-slug: organizationsorgmemberuser-post
   description: Add a member into a given organization
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{org}/member/{user}
-  tags: Organizations, Org, Member, User
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgmemberuser-post-openapi.md
-- name: Data.gov API Put Organizations Org Member User
-  x-api-slug: data-gov-api
+- name: Data.gov API - Put Organizations Org Member User
+  x-api-slug: organizationsorgmemberuser-put
   description: Update member status into a given organization
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{org}/member/{user}
-  tags: Organizations, Org, Member, User
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgmemberuser-put-openapi.md
-- name: Data.gov API Get Organizations Org Membership
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Organizations Org Membership
+  x-api-slug: organizationsorgmembership-get
   description: List membership requests for a given organization
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{org}/membership/
-  tags: Organizations, Org, Membership
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgmembership-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgmembership-get-openapi.md
-- name: Data.gov API Add Organizations Org Membership
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Organizations Org Membership
+  x-api-slug: organizationsorgmembership-post
   description: Apply for membership to a given organization
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{org}/membership/
-  tags: Organizations, Org, Membership
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgmembership-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgmembership-post-openapi.md
-- name: Data.gov API Add Organizations Org Membership  Accept
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Organizations Org Membership  Accept
+  x-api-slug: organizationsorgmembershipidaccept-post
   description: Accept user membership to a given organization
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{org}/membership/{id}/accept/
-  tags: Organizations, Org, Membership, , Accept
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgmembershipidaccept-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgmembershipidaccept-post-openapi.md
-- name: Data.gov API Add Organizations Org Membership  Refuse
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Organizations Org Membership  Refuse
+  x-api-slug: organizationsorgmembershipidrefuse-post
   description: Refuse user membership to a given organization
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{org}/membership/{id}/refuse/
-  tags: Organizations, Org, Membership, , Refuse
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgmembershipidrefuse-post-openapi.md
-- name: Data.gov API Get Organizations Org Reuses
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Organizations Org Reuses
+  x-api-slug: organizationsorgreuses-get
   description: List organization reuses (including private ones when member)
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///organizations/{org}/reuses/
-  tags: Organizations, Org, Reuses
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgreuses-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/organizationsorgreuses-get-openapi.md
-- name: Data.gov API Posts
-  x-api-slug: data-gov-api
+- name: Data.gov API - Posts
+  x-api-slug: posts-get
   description: List all posts
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///posts/
-  tags: Posts
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/posts-get-openapi.md
-- name: Data.gov API Add Post
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Post
+  x-api-slug: posts-post
   description: Create a post
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///posts/
-  tags: Posts
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/posts-post-openapi.md
-- name: Data.gov API Delete Post
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Post
+  x-api-slug: postspost-delete
   description: Delete a given post
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///posts/{post}/
-  tags: Posts
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/postspost-delete-openapi.md
-- name: Data.gov API Get Post
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Post
+  x-api-slug: postspost-get
   description: Get a given post
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///posts/{post}/
-  tags: Posts
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/postspost-get-openapi.md
-- name: Data.gov API Update Post
-  x-api-slug: data-gov-api
+- name: Data.gov API - Update Post
+  x-api-slug: postspost-put
   description: Update a given post
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///posts/{post}/
-  tags: Posts
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/postspost-put-openapi.md
-- name: Data.gov API Add Post Image
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Post Image
+  x-api-slug: postspostimage-post
   description: Upload a new image
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///posts/{post}/image
-  tags: Posts, Images
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/postspostimage-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/postspostimage-post-openapi.md
-- name: Data.gov API Update Post Image
-  x-api-slug: data-gov-api
+- name: Data.gov API - Update Post Image
+  x-api-slug: postspostimage-put
   description: Set the image BBox
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///posts/{post}/image
-  tags: Posts, Images
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/postspostimage-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/postspostimage-put-openapi.md
-- name: Data.gov API Get Reuses
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Reuses
+  x-api-slug: reuses-get
   description: Get Reuses
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///reuses/
-  tags: Reuses
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reuses-get-openapi.md
-- name: Data.gov API Add Reuses
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Reuses
+  x-api-slug: reuses-post
   description: Create a new object
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///reuses/
-  tags: Reuses
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reuses-post-openapi.md
-- name: Data.gov API Get Reuses Badges
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Reuses Badges
+  x-api-slug: reusesbadges-get
   description: List all available reuse badges and their labels
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///reuses/badges/
-  tags: Reuses, Badges
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reusesbadges-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reusesbadges-get-openapi.md
-- name: Data.gov API Get Reuses Suggest
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Reuses Suggest
+  x-api-slug: reusessuggest-get
   description: Suggest reuses
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///reuses/suggest/
-  tags: Reuses, Suggest
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reusessuggest-get-openapi.md
-- name: Data.gov API Get Reuses Types
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Reuses Types
+  x-api-slug: reusestypes-get
   description: List all reuse types
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///reuses/types/
-  tags: Reuses, Types
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reusestypes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reusestypes-get-openapi.md
-- name: Data.gov API Delete Reuses  Followers
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Reuses  Followers
+  x-api-slug: reusesidfollowers-delete
   description: Unfollow an object given its ID
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///reuses/{id}/followers/
-  tags: Reuses, , Followers
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reusesidfollowers-delete-openapi.md
-- name: Data.gov API Get Reuses  Followers
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Reuses  Followers
+  x-api-slug: reusesidfollowers-get
   description: List all followers for a given object
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///reuses/{id}/followers/
-  tags: Reuses, , Followers
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reusesidfollowers-get-openapi.md
-- name: Data.gov API Add Reuses  Followers
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Reuses  Followers
+  x-api-slug: reusesidfollowers-post
   description: Follow an object given its ID
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///reuses/{id}/followers/
-  tags: Reuses, , Followers
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reusesidfollowers-post-openapi.md
-- name: Data.gov API Delete Reuses Reuse
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Reuses Reuse
+  x-api-slug: reusesreuse-delete
   description: Delete a given reuse
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///reuses/{reuse}/
-  tags: Reuses, Reuse
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reusesreuse-delete-openapi.md
-- name: Data.gov API Get Reuses Reuse
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Reuses Reuse
+  x-api-slug: reusesreuse-get
   description: Fetch a given reuse
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///reuses/{reuse}/
-  tags: Reuses, Reuse
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reusesreuse-get-openapi.md
-- name: Data.gov API Put Reuses Reuse
-  x-api-slug: data-gov-api
+- name: Data.gov API - Put Reuses Reuse
+  x-api-slug: reusesreuse-put
   description: Update a given reuse
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///reuses/{reuse}/
-  tags: Reuses, Reuse
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reusesreuse-put-openapi.md
-- name: Data.gov API Add Reuses Reuse Badges
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Reuses Reuse Badges
+  x-api-slug: reusesreusebadges-post
   description: Create a new badge for a given reuse
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///reuses/{reuse}/badges/
-  tags: Reuses, Reuse, Badges
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reusesreusebadges-post-openapi.md
-- name: Data.gov API Delete Reuses Reuse Badges Badge Kind
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Reuses Reuse Badges Badge Kind
+  x-api-slug: reusesreusebadgesbadge-kind-delete
   description: Delete a badge for a given reuse
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///reuses/{reuse}/badges/{badge_kind}/
-  tags: Reuses, Reuse, Badges, Badge, Kind
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reusesreusebadgesbadge-kind-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reusesreusebadgesbadge-kind-delete-openapi.md
-- name: Data.gov API Add Reuses Reuse Datasets
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Reuses Reuse Datasets
+  x-api-slug: reusesreusedatasets-post
   description: Add a dataset to a given reuse
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///reuses/{reuse}/datasets/
-  tags: Reuses, Reuse, Datasets
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reusesreusedatasets-post-openapi.md
-- name: Data.gov API Delete Reuses Reuse Featured
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Reuses Reuse Featured
+  x-api-slug: reusesreusefeatured-delete
   description: Unmark a reuse as featured
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///reuses/{reuse}/featured/
-  tags: Reuses, Reuse, Featured
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reusesreusefeatured-delete-openapi.md
-- name: Data.gov API Add Reuses Reuse Featured
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Reuses Reuse Featured
+  x-api-slug: reusesreusefeatured-post
   description: Mark a reuse as featured
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///reuses/{reuse}/featured/
-  tags: Reuses, Reuse, Featured
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reusesreusefeatured-post-openapi.md
-- name: Data.gov API Add Reuses Reuse Image
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Reuses Reuse Image
+  x-api-slug: reusesreuseimage-post
   description: Upload a new reuse image
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///reuses/{reuse}/image
-  tags: Reuses, Reuse, Image
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/reusesreuseimage-post-openapi.md
-- name: Data.gov API Get Site
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Site
+  x-api-slug: site-get
   description: Site-wide variables
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///site/
-  tags: Site
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/site-get-openapi.md
-- name: Data.gov API Get Site Home Datasets
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Site Home Datasets
+  x-api-slug: sitehomedatasets-get
   description: List homepage datasets
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///site/home/datasets/
-  tags: Site, Home, Datasets
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/sitehomedatasets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/sitehomedatasets-get-openapi.md
-- name: Data.gov API Put Site Home Datasets
-  x-api-slug: data-gov-api
+- name: Data.gov API - Put Site Home Datasets
+  x-api-slug: sitehomedatasets-put
   description: Set the homepage datasets editorial selection
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///site/home/datasets/
-  tags: Site, Home, Datasets
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/sitehomedatasets-put-openapi.md
-- name: Data.gov API Get Site Home Reuses
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Site Home Reuses
+  x-api-slug: sitehomereuses-get
   description: List homepage featured reuses
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///site/home/reuses/
-  tags: Site, Home, Reuses
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/sitehomereuses-get-openapi.md
-- name: Data.gov API Put Site Home Reuses
-  x-api-slug: data-gov-api
+- name: Data.gov API - Put Site Home Reuses
+  x-api-slug: sitehomereuses-put
   description: Set the homepage reuses editorial selection
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///site/home/reuses/
-  tags: Site, Home, Reuses
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/sitehomereuses-put-openapi.md
-- name: Data.gov API Get Spatial Coverage Level
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Spatial Coverage Level
+  x-api-slug: spatialcoveragelevel-get
   description: List each zone for a given level with their datasets count
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///spatial/coverage/{level}
-  tags: Spatial, Coverage, Level
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/spatialcoveragelevel-get-openapi.md
-- name: Data.gov API Get Spatial Granularities
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Spatial Granularities
+  x-api-slug: spatialgranularities-get
   description: List all known spatial granularities
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///spatial/granularities
-  tags: Spatial, Granularities
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/spatialgranularities-get-openapi.md
-- name: Data.gov API Get Spatial Levels
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Spatial Levels
+  x-api-slug: spatiallevels-get
   description: List all known levels
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///spatial/levels
-  tags: Spatial, Levels
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/spatiallevels-get-openapi.md
-- name: Data.gov API Get Spatial Zone
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Spatial Zone
+  x-api-slug: spatialzoneid-get
   description: Fetch a zone
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///spatial/zone/{id}
-  tags: Spatial, Zone
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/spatialzoneid-get-openapi.md
-- name: Data.gov API Get Spatial Zones Suggest
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Spatial Zones Suggest
+  x-api-slug: spatialzonessuggest-get
   description: Suggest geospatial zones
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///spatial/zones/suggest
-  tags: Spatial, Zones, Suggest
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/spatialzonessuggest-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/spatialzonessuggest-get-openapi.md
-- name: Data.gov API Get Spatial Zones S
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Spatial Zones S
+  x-api-slug: spatialzonesids-get
   description: Fetch a zone list as GeoJSON
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///spatial/zones/{ids}
-  tags: Spatial, Zones, S
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/spatialzonesids-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/spatialzonesids-get-openapi.md
-- name: Data.gov API Get Tags Suggest
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Tags Suggest
+  x-api-slug: tagssuggest-get
   description: Suggest tags
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///tags/suggest/
-  tags: Tags, Suggest
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/tagssuggest-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/tagssuggest-get-openapi.md
-- name: Data.gov API Get Territory Suggest
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Territory Suggest
+  x-api-slug: territorysuggest-get
   description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///territory/suggest/
-  tags: Territory, Suggest
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/territorysuggest-get-openapi.md
-- name: Data.gov API Get Topics
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Topics
+  x-api-slug: topics-get
   description: List all topics
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///topics/
-  tags: Topics
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/topics-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/topics-get-openapi.md
-- name: Data.gov API Add Topics
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Topics
+  x-api-slug: topics-post
   description: Create a topic
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///topics/
-  tags: Topics
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/topics-post-openapi.md
-- name: Data.gov API Delete Topics Topic
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Topics Topic
+  x-api-slug: topicstopic-delete
   description: Delete a given topic
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///topics/{topic}/
-  tags: Topics, Topic
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/topicstopic-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/topicstopic-delete-openapi.md
-- name: Data.gov API Get Topics Topic
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Topics Topic
+  x-api-slug: topicstopic-get
   description: Get a given topic
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///topics/{topic}/
-  tags: Topics, Topic
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/topicstopic-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/topicstopic-get-openapi.md
-- name: Data.gov API Put Topics Topic
-  x-api-slug: data-gov-api
+- name: Data.gov API - Put Topics Topic
+  x-api-slug: topicstopic-put
   description: Update a given topic
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///topics/{topic}/
-  tags: Topics, Topic
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/topicstopic-put-openapi.md
-- name: Data.gov API Get Transfer
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Transfer
+  x-api-slug: transfer-get
   description: List all transfer requests
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///transfer/
-  tags: Transfer
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/transfer-get-openapi.md
-- name: Data.gov API Add Transfer
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Transfer
+  x-api-slug: transfer-post
   description: Initiate transfer request
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///transfer/
-  tags: Transfer
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/transfer-post-openapi.md
-- name: Data.gov API Get Transfer
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Transfer
+  x-api-slug: transferid-get
   description: Fetch a transfer request given its identifier
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///transfer/{id}/
-  tags: Transfer
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/transferid-get-openapi.md
-- name: Data.gov API Add Transfer
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Transfer
+  x-api-slug: transferid-post
   description: Respond to a transfer request
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///transfer/{id}/
-  tags: Transfer
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/transferid-post-openapi.md
-- name: Data.gov API Get Users
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Users
+  x-api-slug: users-get
   description: List all objects
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///users/
-  tags: Users
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/users-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/users-get-openapi.md
-- name: Data.gov API Add Users
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Users
+  x-api-slug: users-post
   description: Create a new object
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///users/
-  tags: Users
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/users-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/users-post-openapi.md
-- name: Data.gov API Get Users Suggest
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Users Suggest
+  x-api-slug: userssuggest-get
   description: Suggest users
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///users/suggest/
-  tags: Users, Suggest
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/userssuggest-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/userssuggest-get-openapi.md
-- name: Data.gov API Delete Users  Followers
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Users  Followers
+  x-api-slug: usersidfollowers-delete
   description: Unfollow an object given its ID
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///users/{id}/followers/
-  tags: Users, , Followers
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/usersidfollowers-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/usersidfollowers-delete-openapi.md
-- name: Data.gov API Get Users  Followers
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Users  Followers
+  x-api-slug: usersidfollowers-get
   description: List all followers for a given object
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///users/{id}/followers/
-  tags: Users, , Followers
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/usersidfollowers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/usersidfollowers-get-openapi.md
-- name: Data.gov API Add Users  Followers
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Users  Followers
+  x-api-slug: usersidfollowers-post
   description: Follow an user given its ID
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///users/{id}/followers/
-  tags: Users, , Followers
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/usersidfollowers-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/usersidfollowers-post-openapi.md
-- name: Data.gov API Delete Users User
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Users User
+  x-api-slug: usersuser-delete
   description: Delete a given object
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///users/{user}/
-  tags: Users, User
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/usersuser-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/usersuser-delete-openapi.md
-- name: Data.gov API Get Users User
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Users User
+  x-api-slug: usersuser-get
   description: Get a given object
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///users/{user}/
-  tags: Users, User
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/usersuser-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/usersuser-get-openapi.md
-- name: Data.gov API Put Users User
-  x-api-slug: data-gov-api
+- name: Data.gov API - Put Users User
+  x-api-slug: usersuser-put
   description: Update a given object
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///users/{user}/
-  tags: Users, User
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/usersuser-put-openapi.md
-- name: Data.gov API Get Workers Jobs
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Workers Jobs
+  x-api-slug: workersjobs-get
   description: List all scheduled jobs
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///workers/jobs/
-  tags: Workers, Jobs
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/workersjobs-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/workersjobs-get-openapi.md
-- name: Data.gov API Add Workers Jobs
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Workers Jobs
+  x-api-slug: workersjobs-post
   description: Create a new scheduled job
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///workers/jobs/
-  tags: Workers, Jobs
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/workersjobs-post-openapi.md
-- name: Data.gov API Get Workers Jobs Schedulables
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Workers Jobs Schedulables
+  x-api-slug: workersjobsschedulables-get
   description: List all schedulable jobs
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///workers/jobs/schedulables
-  tags: Workers, Jobs, Schedulables
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/workersjobsschedulables-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/workersjobsschedulables-get-openapi.md
-- name: Data.gov API Delete Workers Jobs
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Workers Jobs
+  x-api-slug: workersjobsid-delete
   description: Delete a single scheduled job
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///workers/jobs/{id}
-  tags: Workers, Jobs
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/workersjobsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/workersjobsid-delete-openapi.md
-- name: Data.gov API Get Workers Jobs
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Workers Jobs
+  x-api-slug: workersjobsid-get
   description: Fetch a single scheduled job
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///workers/jobs/{id}
-  tags: Workers, Jobs
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/workersjobsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/workersjobsid-get-openapi.md
-- name: Data.gov API Put Workers Jobs
-  x-api-slug: data-gov-api
+- name: Data.gov API - Put Workers Jobs
+  x-api-slug: workersjobsid-put
   description: Update a single scheduled job
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///workers/jobs/{id}
-  tags: Workers, Jobs
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/workersjobsid-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/workersjobsid-put-openapi.md
-- name: Data.gov API Get Workers Tasks
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Workers Tasks
+  x-api-slug: workerstasksid-get
   description: Get a tasks status given its ID
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///workers/tasks/{id}
-  tags: Workers, Tasks
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/workerstasksid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/workerstasksid-get-openapi.md
-- name: Data.gov API
-  x-api-slug: data-gov-api
-  description: data.gov is a U.S. government website launched in late May 2009 by
-    the then Federal Chief Information Officer (CIO) of the United States, Vivek Kundra.
-    According to its website, The purpose of data.gov is to increase public access
-    to high value, machine readable datasets generated by the Executive Branch of
-    the Federal Government. The site seeks to become a repository for all the information
-    the government collects. The site would publish to the public any data that is
-    not private or restricted for national security reasons.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
-  humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3/
-  tags: Data.Gov
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/data-gov/master/_listings/data-gov/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://danske.bank.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://data.gov.stack.network
 - type: x-blog
   url: https://www.data.gov/meta/
 - type: x-blog-rss
